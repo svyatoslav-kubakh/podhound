@@ -38,7 +38,7 @@ docker run -d \
   -e PORT=8080 \
   -e DATABASE_PATH=/app/data/podhound.db \
   --restart unless-stopped \
-  ksar/podhound:latest
+  skubakh/podhound:latest
 ```
 
 ### Option B: Via `docker-compose.yml`
@@ -50,7 +50,7 @@ version: '3.8'
 
 services:
   podhound:
-    image: ksar/podhound:latest
+    image: skubakh/podhound:latest
     container_name: podhound
     ports:
       - "8080:8080"
