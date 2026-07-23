@@ -4,17 +4,13 @@
 [![Bun](https://img.shields.io/badge/Bun-v1.x-black?logo=bun)](https://bun.sh)
 [![TypeScript](https://img.shields.io/badge/TypeScript-v7-blue?logo=typescript)](https://www.typescriptlang.org/)
 
-<table>
-  <tr>
-    <td valign="middle">
-      <p><b>A lightweight, self-hosted podcast sync server.</b></p>
-      <p>It doggedly tracks your subscriptions and playback progress, so you can seamlessly pick up right where you left off on any device.</p>
-    </td>
-    <td width="120" align="center" valign="middle">
-      <img src="assets/logo.png" alt="Podhound Logo" width="110">
-    </td>
-  </tr>
-</table>
+<img src="assets/logo.png" alt="Podhound Logo" width="120" align="right">
+
+**A lightweight, self-hosted podcast sync server.**
+
+It doggedly tracks your subscriptions and playback progress, so you can seamlessly pick up right where you left off on any device.
+
+<br clear="all">
 
 ---
 
