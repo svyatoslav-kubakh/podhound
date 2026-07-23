@@ -18,7 +18,7 @@ It doggedly tracks your subscriptions and playback progress, so you can seamless
 
 * **Runtime & Package Manager:** [Bun](https://bun.sh/) (TypeScript v7) — instant startup with zero compilation delay.
 * **Database:** SQLite powered by the native high-performance `bun:sqlite` module (with `PRAGMA journal_mode = WAL` and `foreign_keys` enabled).
-* **API Protocol:** [gPodder API v2](https://gpoddernet.readthedocs.io/en/latest/api/2/index.html) — full compatibility with mobile clients like **AntennaPod**, gPodder Desktop, etc.
+* **API Protocol:** [gPodder API v2](https://gpoddernet.readthedocs.io/en/latest/api/index.html) — full compatibility with mobile clients like **AntennaPod**, gPodder Desktop, etc.
 * **Build / Compiling:** `bun build --compile` — compiles into **1 single standalone binary** with embedded `.sql` migrations without external runtime dependencies.
 * **Containerization:** Multi-stage `Dockerfile` based on lightweight Alpine Linux.
 
