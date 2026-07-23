@@ -1,0 +1,16 @@
+{
+  "name": "podhound",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test",
+    "build": "bun build --compile --minify ./src/index.ts --outfile podhound"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^7.0.0"
+  }
+}
